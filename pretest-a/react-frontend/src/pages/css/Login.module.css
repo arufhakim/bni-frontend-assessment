@@ -1,0 +1,84 @@
+:root {
+  --orange: #ff6600;
+  --blue: #006699;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  padding: 10px 30px 30px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.21);
+  background-color: white;
+}
+
+.card p {
+  margin: 5px 0px 10px 0px;
+  font-size: small;
+  color: grey;
+}
+
+.header {
+  margin: 5px 0px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  all: unset;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 10px 2px;
+  width: 100%;
+  font-size: small;
+  color: grey;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+  gap: 5px;
+}
+
+.auto {
+  width: 100%;
+  margin-right: 10px;
+}
+
+button {
+  all: unset;
+}
+
+button:focus {
+  outline: revert;
+}
+
+.username,
+.password {
+  border-bottom: 1px solid black;
+}
+
+.btn {
+  margin-top: 5px;
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: small;
+}
+
+.btnSubmit {
+  background-color: var(--orange);
+  color: white;
+}

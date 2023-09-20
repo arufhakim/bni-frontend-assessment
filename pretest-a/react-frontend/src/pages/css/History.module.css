@@ -1,0 +1,169 @@
+:root {
+  --orange: #ff6600;
+  --blue: #006699;
+}
+
+.container {
+  margin: 15px 0px 65px 0px;
+}
+
+.driverContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.21);
+}
+
+.status {
+  margin-top: 15px;
+  padding: 20px;
+  font-size: small;
+  text-align: center;
+  background-color: var(--orange);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.21);
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.driverDetail {
+  flex: 100%;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 1px lightgray;
+}
+
+.orderDetail {
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.orderDetail h5 {
+  margin: 5px 0px;
+}
+
+.order {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 11px;
+  color: grey;
+  margin: 2px 0px;
+}
+
+.order p {
+  margin: 0;
+}
+
+.driverDetail h5 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.driver {
+  color: gray;
+}
+
+.driver h5 {
+  color: var(--blue);
+}
+
+.driver .name {
+  color: black;
+  font-size: small;
+}
+
+.rating {
+  color: var(--orange);
+}
+
+.desc {
+  font-size: 11px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3px;
+}
+
+.cost {
+  font-size: small;
+  font-weight: 600;
+}
+
+.tax {
+  font-size: x-small;
+  padding: 0px 20px;
+}
+
+.total {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-size: small;
+}
+
+.method {
+  font-weight: 800;
+}
+
+.btn {
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: small;
+  margin-top: 15px;
+}
+
+.btnSubmit {
+  background-color: var(--orange);
+  color: white;
+}
+
+.pointContainer {
+  font-size: 11px;
+  border-bottom: solid 1px lightgray;
+}
+
+.pointContainer p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.point {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px 20px;
+  gap: 10px;
+}
+
+.icon {
+  flex: 50%;
+}
+
+.location {
+  color: grey;
+}
+
+.det {
+  font-weight: bold;
+}

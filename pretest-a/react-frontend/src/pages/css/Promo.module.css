@@ -1,0 +1,46 @@
+:root {
+  --orange: #ff6600;
+  --blue: #006699;
+}
+
+.container {
+  padding: 15px 10px 65px 10px;
+}
+
+.promoContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 5px;
+}
+
+.promo {
+  flex: 100%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.21);
+}
+
+.promo img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.promoDesc {
+  padding: 2px 13px;
+  text-align: justify;
+  
+}
+
+.promoDesc h4 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: var(--orange);
+}
+
+.promoDesc p {
+  font-size: small;
+}

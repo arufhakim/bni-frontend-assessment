@@ -1,0 +1,104 @@
+:root {
+  --orange: #ff6600;
+  --blue: #006699;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  background-color: black;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.21);
+}
+
+.container p {
+  padding: 0px 20px;
+  margin: 8px 0px;
+  color: white;
+}
+
+.fleet {
+  flex: 100%;
+  padding: 15px 20px;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.radiusTop {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.fleet h5 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.desc {
+  color: gray;
+}
+
+.desc h5 {
+  color: black;
+}
+
+.capacity {
+  font-size: 11px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3px;
+}
+
+.cost {
+  font-size: small;
+  font-weight: 600;
+}
+
+.tax {
+  font-size: x-small;
+  padding: 0px 20px;
+}
+
+.tax span {
+  color: red;
+}
+
+.total {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-size: small;
+  background-color: white;
+}
+
+.total p {
+  color: black;
+}
+
+.method {
+  font-weight: 800;
+}
+
+.btn {
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: small;
+}
+
+.btnSubmit {
+  background-color: var(--orange);
+  color: white;
+}

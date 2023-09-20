@@ -1,0 +1,126 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Aruf Rachman Hakim",
+      "username": "arufhakim",
+      "password": "password",
+      "phone": "081335357589"
+    },
+    {
+      "id": 2,
+      "name": "Gabriella Angel",
+      "username": "gabriella",
+      "password": "password",
+      "phone": "085493892345"
+    }
+  ],
+  "drivers": [
+    {
+      "id": 1,
+      "name": "Budi Sulistiya",
+      "license": "B 2340 H",
+      "brand": "Honda Beat",
+      "rating": "4.5"
+    },
+    {
+      "id": 2,
+      "name": "Sutopo Hermawan",
+      "license": "B 1939 VK",
+      "brand": "Honda Scoopy",
+      "rating": "4.9"
+    },
+    {
+      "id": 3,
+      "name": "Kevin Edna",
+      "license": "D 5024 BDG",
+      "brand": "Yamaha NMAX",
+      "rating": "4.8"
+    }
+  ],
+  "fleets": [
+    {
+      "id": 1,
+      "type": "Bike",
+      "cost": 2000,
+      "capacity": 1,
+      "max": "1-4"
+    },
+    {
+      "id": 2,
+      "type": "e-Bike",
+      "cost": 3000,
+      "capacity": 1,
+      "max": "1-4"
+    },
+    {
+      "id": 3,
+      "type": "Car",
+      "cost": 5000,
+      "capacity": 4,
+      "max": "3-7"
+    },
+    {
+      "id": 4,
+      "type": "e-Car",
+      "cost": 6000,
+      "capacity": 4,
+      "max": "7-11"
+    },
+    {
+      "id": 5,
+      "type": "Car XL",
+      "cost": 7000,
+      "capacity": 6,
+      "max": "3-7"
+    },
+    {
+      "id": 6,
+      "type": "Taxi",
+      "cost": 10000,
+      "capacity": 6,
+      "max": "3-7"
+    }
+  ],
+  "orders": [
+    {
+      "pickup": "Gresik Icon Mall, Jalan Doktor Wahidin Sudiro Husodo, Kembangan, Dahanrejo, Gresik Regency, East Java, Indonesia",
+      "destination": "Semen Gresik Hospital, Gang I, Kesemen, Sukorame, Gresik Regency, East Java, Indonesia",
+      "type": "e-Bike",
+      "price": 15300,
+      "orderId": 889768343,
+      "date": 1695209193972,
+      "name": "Sutopo Hermawan",
+      "license": "B 1939 VK",
+      "brand": "Honda Scoopy",
+      "rating": "4.9",
+      "id": 1
+    },
+    {
+      "pickup": "Petrokimia Gresik Hospital, Jalan Jenderal Ahmad Yani, Ngipik, Karangpoh, Gresik Regency, East Java, Indonesia",
+      "destination": "Semen Gresik Hospital, Gang I, Kesemen, Sukorame, Gresik Regency, East Java, Indonesia",
+      "type": "e-Bike",
+      "price": 5100,
+      "orderId": 528052836,
+      "date": 1695209467109,
+      "name": "Kevin Edna",
+      "license": "D 5024 BDG",
+      "brand": "Yamaha NMAX",
+      "rating": "4.8",
+      "id": 2
+    },
+    {
+      "pickup": "Gresik, Gresik Regency, East Java, Indonesia",
+      "destination": "Surabaya, East Java, Indonesia",
+      "type": "Taxi",
+      "price": 208000,
+      "orderId": 45707769,
+      "date": 1695214575105,
+      "name": "Kevin Edna",
+      "license": "D 5024 BDG",
+      "brand": "Yamaha NMAX",
+      "rating": "4.8",
+      "id": 3
+    }
+  ]
+}

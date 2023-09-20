@@ -1,0 +1,126 @@
+:root {
+  --orange: #ff6600;
+  --blue: #006699;
+}
+
+.maps {
+  width: 100%;
+  height: 300px;
+}
+
+.container {
+  padding: 2px 20px 20px 20px;
+  flex: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.21);
+}
+
+.pointContainer {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.pointContainer p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.point {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  flex: 50%;
+}
+
+.location{
+  color: grey;
+}
+
+.destination{
+  margin-top: 10px;
+}
+
+.det{
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  line-height: 10px;
+}
+
+input {
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 10px 2px;
+  width: 100%;
+  font-size: small;
+  color: grey;
+}
+
+.input {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 8px;
+  gap: 5px;
+}
+
+.auto{
+  width: 100%;
+  margin-right: 10px;
+}
+
+::placeholder {
+  font-size: small;
+  padding-left: 10px;
+}
+
+.btnGroup{
+  text-align: end;
+  margin-right: 5px;
+}
+
+.btn {
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: small;
+}
+
+.btnSubmit {
+  background-color: var(--orange);
+  color: white;
+}
+
+.btnEdit {
+  background-color: var(--blue);
+  color: white;
+}
+
+.recap {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.recap h4 {
+  margin-bottom: 0px;
+}
+
+.recap p {
+  margin-top: 0px;
+  color: grey;
+}
