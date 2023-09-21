@@ -126,12 +126,18 @@
   border-radius: 10px;
   font-size: small;
   margin-top: 15px;
+  cursor: pointer;
 }
 
 .btnSubmit {
   background-color: var(--orange);
   color: white;
 }
+
+.btnSubmit:hover{
+  background-color: var(--blue);
+}
+
 
 .pointContainer {
   font-size: 11px;

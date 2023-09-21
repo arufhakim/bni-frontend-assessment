@@ -43,6 +43,11 @@
   margin: 0;
 }
 
+.promoHeader p:hover {
+  color: var(--orange);
+  margin: 0;
+}
+
 .icons {
   background-color: var(--orange);
   color: white;
@@ -101,4 +106,8 @@
 
 .promoDesc p {
   font-size: small;
+}
+
+.icons:hover{
+  background-color: var(--blue);
 }

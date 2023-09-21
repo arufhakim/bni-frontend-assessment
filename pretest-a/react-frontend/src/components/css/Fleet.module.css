@@ -35,6 +35,11 @@
   background-color: white;
 }
 
+.fleet:hover{
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
 .radiusTop {
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
@@ -96,9 +101,14 @@
   text-align: center;
   border-radius: 10px;
   font-size: small;
+  cursor: pointer;
 }
 
 .btnSubmit {
   background-color: var(--orange);
   color: white;
+}
+
+.btnSubmit:hover{
+  background-color: var(--blue);
 }

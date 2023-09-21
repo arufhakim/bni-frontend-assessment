@@ -97,14 +97,26 @@ input {
   font-size: small;
 }
 
+.btn:hover{
+  cursor: pointer;
+}
+
 .btnSubmit {
   background-color: var(--orange);
   color: white;
 }
 
+.btnSubmit:hover{
+  background-color: var(--blue);
+}
+
 .btnEdit {
   background-color: var(--blue);
   color: white;
+}
+
+.btnEdit:hover{
+  background-color: var(--orange);
 }
 
 .recap {
