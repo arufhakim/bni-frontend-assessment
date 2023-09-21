@@ -1,0 +1,45 @@
+:root {
+  --orange: #ff6600;
+  --blue: #006699;
+}
+
+.container {
+  background-color: var(--orange);
+  margin: 0px 5px 10px 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.21);
+}
+
+.input {
+  background-color: white;
+  border: none;
+  outline: none;
+}
+
+button {
+  padding: 12px 12px 7px 12px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: small;
+}
+
+.search {
+  background-color: var(--blue);
+  color: white;
+}
+
+.reset {
+  background-color: var(--blue);
+  color: white;
+}
+
+button:hover {
+  background-color: black;
+}

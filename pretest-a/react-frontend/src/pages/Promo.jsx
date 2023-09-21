@@ -4,9 +4,10 @@ import axios from "axios";
 import { PromoContext } from "../context/PromoContext";
 import BottomBar from "../components/BottomBar";
 import Loader from "../components/Loader";
+import Search from "../components/Search";
 
 const Banner = () => {
-  const { promos, setPromos } = useContext(PromoContext);
+  const { promos, setPromos, isReset, setIsReset } = useContext(PromoContext);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -17,11 +18,12 @@ const Banner = () => {
         setTimeout(() => {
           setIsLoading(false);
         }, 500);
+        setIsReset(false);
       })
       .catch((error) => {
         console.log(error);
       });
-  }, []);
+  }, [isReset]);
 
   if (isLoading) {
     return (
@@ -35,6 +37,7 @@ const Banner = () => {
   return (
     <>
       <div className={style.container}>
+        <Search />
         <div className={style.promoContainer}>
           {promos.map((promo) => {
             return (
