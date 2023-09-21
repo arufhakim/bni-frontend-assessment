@@ -15,7 +15,7 @@ const Banner = () => {
       .then((res) => {
         setPromos([...res.data]);
         setTimeout(() => {
-          setIsLoading(true);
+          setIsLoading(false);
         }, 500);
       })
       .catch((error) => {
