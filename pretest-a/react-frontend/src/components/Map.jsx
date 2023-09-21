@@ -16,6 +16,7 @@ import Loader from "./Loader";
 import BottomBar from "./BottomBar";
 
 const center = { lat: -7.24917, lng: 112.75083 };
+const libraries = ["places"];
 
 const Map = () => {
   const {
@@ -28,10 +29,9 @@ const Map = () => {
     point,
     setPoint,
   } = useContext(OrderContext);
-
   const { isLoaded } = useJsApiLoader({
     googleMapsApiKey: process.env.REACT_APP_API_KEY,
-    libraries: ["places"],
+    libraries,
   });
   const [map, setMap] = useState(null);
   const [directionsResponse, setDirectionsResponse] = useState(null);
